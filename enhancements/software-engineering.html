@@ -1,1 +1,64 @@
+<section id="software-engineering" style="max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.6;">
+  <h2 style="text-align:center; color:#2c3e50;">Enhancement #1: Software Design and Engineering</h2>
+  
+  <h3>Artifact Description</h3>
+  <p>
+    The artifact I selected for this enhancement is the <strong>Contact Service Appointment Project</strong> originally created in CS 320. 
+    This project provides the ability to manage contact information with validation rules and supports core CRUD (Create, Read, Update, Delete) functionality. 
+    It was developed in Java using Eclipse, with unit testing implemented through JUnit.
+  </p>
+
+  <h3>Reason for Inclusion</h3>
+  <p>
+    I chose this artifact because it demonstrates key skills in software design, engineering principles, and testing practices. 
+    The project highlights object-oriented design through its use of classes and encapsulation, input validation to ensure data integrity, 
+    exception handling to manage errors gracefully, and automated unit testing to verify correctness. 
+    These are essential competencies for professional software developers. 
+    By enhancing this artifact, I strengthened the code’s design, improved maintainability, and expanded test coverage to handle a broader range of edge cases.
+  </p>
+
+  <h3>Enhancements Made</h3>
+  <ul>
+    <li><strong>Contact.java:</strong> Refined input validation and added more descriptive exception messages for invalid data such as improperly formatted phone numbers or overly long names. Inline comments were also added for better readability.</li>
+    <li><strong>ContactService.java:</strong> Enhanced error handling by throwing explicit exceptions when attempting to update or delete non-existent contacts. Code was refactored for cleaner logic and improved documentation.</li>
+    <li><strong>ContactTest.java:</strong> Expanded test cases to include additional boundary and invalid input scenarios, ensuring full validation coverage.</li>
+    <li><strong>ContactServiceTest.java:</strong> Added tests for update and delete operations on non-existent contacts, and improved assertion messages for easier debugging.</li>
+  </ul>
+
+  <h3>Design Challenges and Trade-offs</h3>
+  <p>
+    During the enhancement process, I encountered trade-offs between simplicity and extensibility. 
+    For instance, using a <code>HashMap</code> for contact storage offered fast access and low complexity but limited scalability compared to using a relational database. 
+    I also refined exception handling to balance user feedback clarity and error abstraction — too much detail could expose internal logic, while too little would hinder debugging. 
+    These design considerations helped me think critically about software structure, maintainability, and long-term growth.
+  </p>
+
+  <h3>Security Considerations</h3>
+  <p>
+    A major focus during enhancement was ensuring input validation and error handling followed a security-minded approach. 
+    By validating data length, format, and character restrictions, I mitigated risks such as buffer overflows, data corruption, or injection attacks. 
+    Strengthened exception handling also prevents the exposure of sensitive internal details in error messages, promoting a more secure and professional-grade application.
+  </p>
+
+  <h3>Course Outcomes Met</h3>
+  <ul>
+    <li><strong>Software Design and Engineering:</strong> Demonstrated ability to refactor and improve existing codebases for clarity, maintainability, and robustness.</li>
+    <li><strong>Algorithms and Data Structures:</strong> Applied appropriate data structures, such as <code>HashMap</code>, to manage contacts efficiently and ensure quick retrieval.</li>
+    <li><strong>Professional Communication:</strong> Improved code documentation, comments, and error messaging to enhance collaboration and maintainability.</li>
+    <li><strong>Security:</strong> Incorporated a defensive coding mindset by validating input and handling exceptions securely.</li>
+  </ul>
+
+  <h3>Reflection on the Process</h3>
+  <p>
+    Enhancing this artifact taught me the importance of designing software that is both functional and sustainable. 
+    Expanding the unit tests deepened my appreciation for proactive testing and how it supports long-term code quality. 
+    The process also reinforced that good software engineering involves anticipating future needs — for example, designing the system so it could easily integrate with a database or a RESTful API in a real-world context. 
+    One challenge I faced was ensuring that new test cases matched updated validation rules, but resolving these issues strengthened my understanding of how implementation and testing are interdependent.
+  </p>
+
+  <p>
+    Overall, this enhancement demonstrates my growth in writing secure, maintainable, and scalable code. 
+    It reflects my progress toward mastering software design and engineering best practices that are directly applicable to professional development environments.
+  </p>
+</section>
 
