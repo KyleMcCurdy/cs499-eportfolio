@@ -1,1 +1,42 @@
+<section id="databases" style="max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.6;">
+  <h2 style="text-align:center; color:#2c3e50;">Enhancement #3: Database Design and Development</h2>
+
+  <h3>Artifact Description</h3>
+  <p>
+    For this project, I enhanced the <strong>AnimalShelterCRUD</strong> Python class, which serves as the data access layer for the MongoDB database used in the animal shelter application. 
+    The original class provided basic CRUD (Create, Read, Update, Delete) functionality, and I implemented improvements to increase usability, error handling, and flexibility.
+  </p>
+
+  <h3>Enhancements Made</h3>
+  <ul>
+    <li><strong>Connection Handling:</strong> The constructor now accepts configurable parameters (username, password, host, port, db_name, collection_name), allowing reuse in different environments and improving security by avoiding hardcoded credentials.</li>
+    <li><strong>Create Operation:</strong> Added input validation to prevent empty or None values. Returns the inserted document's <code>_id</code> for traceability and verification.</li>
+    <li><strong>Read Operation:</strong> Added an optional projection parameter to specify which fields to return, improving efficiency by reducing unnecessary data transfer.</li>
+    <li><strong>Update Operation:</strong> Enhanced to support batch updates with <code>update_many</code> and added validation to ensure queries and new values are valid. Returns the number of documents modified for clear feedback.</li>
+    <li><strong>Delete Operation:</strong> Enhanced to allow batch deletion with <code>delete_many</code> and validate queries before execution. Returns the number of deleted documents for confirmation.</li>
+    <li><strong>Code Readability and Documentation:</strong> Added descriptive docstrings for each method, improving maintainability and usability for other developers.</li>
+  </ul>
+
+  <h3>Skills Demonstrated</h3>
+  <ul>
+    <li><strong>Database Design & Development:</strong> Improved CRUD operations, input validation, and projection handling to ensure reliable and efficient data management.</li>
+    <li><strong>Security & Error Handling:</strong> Configurable connections, input validation, and proper exception handling demonstrate secure coding practices.</li>
+    <li><strong>Professional Communication:</strong> Clear docstrings and structured code make the class easier to maintain and collaborate on.</li>
+  </ul>
+
+  <h3>Challenges and Reflection</h3>
+  <p>
+    During the enhancement process, I faced challenges ensuring that batch updates and deletions worked correctly without unintentionally affecting other records. 
+    Validating inputs for all CRUD operations required careful testing to prevent runtime errors and maintain data integrity. 
+    I also had to design flexible connection handling to allow the class to be reused in different environments while keeping credentials secure. 
+    Through this process, I learned the importance of designing database access layers that are robust, maintainable, and efficient, and how careful validation and error handling contribute to both security and usability.
+  </p>
+
+  <h3>Why This Artifact Matters</h3>
+  <p>
+    This enhancement demonstrates my ability to design and implement database solutions that are flexible, secure, and scalable. 
+    It reflects growth from foundational database knowledge to professional-level application development. 
+    Including this artifact in my ePortfolio shows my capability to build maintainable data-driven applications and highlights skills in database design, secure coding practices, and efficient data management.
+  </p>
+</section>
 
