@@ -4,35 +4,57 @@
   <h3>Overview</h3>
   <p>
     Throughout the CS499 Capstone course, I have enhanced multiple artifacts that demonstrate growth in software design, algorithms, data structures, and database development. 
-    This self-assessment reflects on the skills I have strengthened, challenges I have overcome, and the professional competencies I am prepared to apply in a real-world environment.
+    This self-assessment reflects on the skills I have strengthened, challenges I have overcome, and the professional competencies I am prepared to apply in a real-world environment. 
+    These enhancements allowed me to bridge foundational coursework with more advanced, capstone-level development, preparing me for professional software engineering roles.
   </p>
 
   <h3>Skills and Competencies Developed</h3>
   <ul>
-    <li><strong>Software Design and Engineering:</strong> By improving the Contact Service Appointment Project, I refined validation logic, exception handling, and unit tests, producing more maintainable, professional-quality code.</li>
-    <li><strong>Algorithms and Data Structures:</strong> Enhancements to data storage using <code>HashMap</code> and the application of regex validation demonstrated algorithmic thinking and efficient use of data structures for performance and reliability.</li>
-    <li><strong>Database Development:</strong> Enhancing the AnimalShelterCRUD class improved CRUD operations, introduced input validation, flexible connection handling, and batch operations, reflecting secure, scalable, and maintainable database design.</li>
-    <li><strong>Professional Communication:</strong> Improved documentation, comments, and structured narratives ensured that both code and explanations are clear, thorough, and understandable to other developers and stakeholders.</li>
-    <li><strong>Problem Solving and Critical Thinking:</strong> Challenges such as managing boundary cases, balancing validation with usability, and ensuring secure coding practices strengthened my analytical and problem-solving skills.</li>
+    <li><strong>Software Design and Engineering:</strong> By improving the Contact Service Appointment Project, I refined validation logic, exception handling, and unit tests, producing more maintainable, professional-quality code. 
+        For example, I implemented stricter input validation rules to ensure names were between 1–10 characters and phone numbers exactly 10 digits, reducing potential errors and ensuring data integrity. 
+        I also refactored error handling to provide meaningful messages while keeping internal system details secure.
+    </li>
+    <li><strong>Algorithms and Data Structures:</strong> Enhancements to data storage using <code>HashMap</code> and regex validation demonstrated algorithmic thinking and efficient use of data structures for performance and reliability. 
+        Using a <code>HashMap</code> allowed O(1) access, insert, and deletion operations, significantly improving the efficiency of contact management compared to previous linear search approaches. 
+        Regex validation for phone numbers and address formatting strengthened data sanitization practices.
+    </li>
+    <li><strong>Database Development:</strong> Enhancing the <code>AnimalShelterCRUD</code> class improved CRUD operations, introduced input validation, flexible connection handling, and batch operations, reflecting secure, scalable, and maintainable database design. 
+        These improvements make the database layer robust and ready for real-world applications.
+    </li>
+    <li><strong>Professional Communication:</strong> Improved documentation, comments, and structured narratives ensured that both code and explanations are clear, thorough, and understandable to other developers and stakeholders. 
+        Inline comments in Java and docstrings in Python provide context for future collaborators, demonstrating professional coding practices.
+    </li>
+    <li><strong>Problem Solving and Critical Thinking:</strong> Challenges such as managing boundary cases, balancing validation with usability, and ensuring secure coding practices strengthened my analytical and problem-solving skills. 
+        One example involved ensuring batch updates in the database did not unintentionally affect other records, which required careful testing and iterative debugging. 
+        Another involved balancing strict validation with user flexibility, which taught me to make thoughtful design trade-offs.
+    </li>
   </ul>
 
   <h3>Reflection on Growth</h3>
   <p>
     Completing these enhancements has reinforced my understanding of professional-level software development practices. 
-    I have learned to approach coding with a focus on maintainability, security, and scalability, while also integrating testing and validation to ensure high-quality deliverables. 
-    The process required careful planning, iterative problem-solving, and attention to detail — all skills that will be essential in a professional software development role.
+    I have learned to approach coding with a focus on maintainability, security, and scalability, while integrating testing and validation to ensure high-quality deliverables. 
+    The process required careful planning, iterative problem-solving, and attention to detail — skills essential in professional software development.
+  </p>
+  <p>
+    Through this work, I developed a stronger appreciation for <strong>design trade-offs</strong>, understanding that efficiency, flexibility, and security often require balancing competing priorities. 
+    Additionally, enhancing unit tests to cover edge cases and invalid inputs highlighted the importance of proactive testing in preventing future errors and improving software reliability.
   </p>
 
   <h3>Future Applications</h3>
   <p>
     The skills and practices developed during this capstone project are directly applicable to real-world software engineering. 
     I am now better prepared to contribute to collaborative projects, design efficient systems, and implement secure, maintainable solutions in both individual and team environments. 
-    This ePortfolio not only demonstrates my technical abilities but also reflects my growth as a thoughtful, professional developer ready to tackle complex challenges in the software industry.
+    For example, the experience of enhancing database access layers and validation logic directly prepares me for roles involving backend development, data-driven applications, or secure software design.
+  </p>
+  <p>
+    This ePortfolio not only demonstrates my technical abilities but also reflects my growth as a thoughtful, professional developer capable of analyzing complex problems, applying best practices, and producing reliable software solutions.
   </p>
 
   <h3>Conclusion</h3>
   <p>
-    Overall, this capstone experience has provided a comprehensive opportunity to integrate and enhance my knowledge from prior coursework. 
-    The artifacts, enhancements, and reflections included in this ePortfolio highlight my development as a competent, professional software developer and my readiness to apply these skills in future endeavors.
+    Overall, this capstone experience provided a comprehensive opportunity to integrate and enhance my knowledge from prior coursework. 
+    The artifacts, enhancements, and reflections included in this ePortfolio highlight my development as a competent, professional software developer. 
+    They demonstrate my readiness to apply these skills in future endeavors and provide evidence of my ability to produce high-quality, secure, and maintainable software in professional environments.
   </p>
 </section>
