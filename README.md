@@ -21,8 +21,3 @@ Welcome to my CS499 Capstone ePortfolio. This repository contains my original an
 - Databases – CS340 enhancement narratives
 - Self-Assessment – Professional reflection
 
-## Notes
-
-- All code enhancements are tested and documented.
-- The ePortfolio demonstrates technical skills, professional communication, and adherence to software engineering best practices.
-- For questions or feedback, contact me at **kyle.mccurdy@example.com**.
