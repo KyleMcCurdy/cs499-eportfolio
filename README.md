@@ -14,8 +14,6 @@ Welcome to my CS499 Capstone ePortfolio. This repository contains my original an
 
 ## Navigation
 
-Use the links below to explore different sections of the ePortfolio:
-
 - Home – Landing page with overview
 - About – About me and background
 - Software Engineering – CS320 enhancement narratives
