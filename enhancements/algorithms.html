@@ -1,1 +1,71 @@
+<section id="algorithms" style="max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.6;">
+  <h2 style="text-align:center; color:#2c3e50;">Enhancement #2: Algorithms and Data Structures</h2>
+
+  <h3>Enhancements Made</h3>
+  <p>
+    The following improvements were applied across the classes in the Contact Service project:
+  </p>
+  <ul>
+    <li><strong>Contact.java</strong>
+      <ul>
+        <li><em>Validation Logic:</em> Enhanced input rules to handle boundary cases, e.g., names between 1–10 characters, phone numbers exactly 10 digits, and addresses up to 30 characters.</li>
+        <li><em>Robustness:</em> Invalid data is consistently rejected, preventing runtime errors and ensuring strong data integrity.</li>
+        <li><em>Algorithm Applied:</em> Regex validation (<code>\\d{10}</code>) for phone numbers demonstrates algorithmic thinking in input sanitization.</li>
+      </ul>
+    </li>
+    <li><strong>ContactService.java</strong>
+      <ul>
+        <li><em>Data Structure:</em> Used a <code>HashMap&lt;String, Contact&gt;</code> for O(1) lookup, add, update, and delete operations.</li>
+        <li><em>Duplicate Detection:</em> Throws exceptions for duplicate contact IDs, ensuring uniqueness.</li>
+        <li><em>Partial Updates:</em> Update method allows selective updates of non-null fields, improving flexibility.</li>
+        <li><em>Scalability:</em> These improvements allow the service to handle larger datasets efficiently.</li>
+      </ul>
+    </li>
+    <li><strong>ContactTest.java</strong>
+      <ul>
+        <li><em>Boundary Testing:</em> Added tests for exact allowed limits (10-character names, 30-character addresses, 10-digit phones).</li>
+        <li><em>Parameterized Tests:</em> Leveraged JUnit 5 @ParameterizedTest to reduce repetitive code.</li>
+        <li><em>Nested Test Classes:</em> Organized tests into <em>ValidContactTests</em> and <em>InvalidContactTests</em> using @Nested for clarity and maintainability.</li>
+      </ul>
+    </li>
+    <li><strong>ContactServiceTest.java</strong>
+      <ul>
+        <li><em>Structured Tests:</em> Reorganized into categories (Add/Delete, Update) using @Nested classes.</li>
+        <li><em>Partial Update Testing:</em> Confirmed individual fields can be updated independently.</li>
+        <li><em>Stress Testing:</em> Inserted 100 contacts in a loop to validate performance under larger inputs.</li>
+        <li><em>Exception Handling:</em> Verified proper errors are thrown for non-existent contacts.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h3>Skills Demonstrated</h3>
+  <ul>
+    <li><strong>Algorithms & Data Structures:</strong> HashMap for efficient storage/retrieval, regex validation for input sanitization, and defensive programming techniques.</li>
+    <li><strong>Software Testing:</strong> Applied advanced JUnit 5 features (nested, parameterized tests) to enhance coverage and readability.</li>
+    <li><strong>Code Maintainability:</strong> Logical test structuring and boundary/stress testing demonstrate scalability and resilience.</li>
+  </ul>
+
+  <h3>Design Trade-offs and Challenges</h3>
+  <p>
+    While implementing these enhancements, I faced several challenges. Choosing <code>HashMap</code> provided O(1) performance but required careful management of unique keys and null checks. Using regex for phone numbers simplified validation but initially caused errors when inputs contained spaces or special characters, which I resolved by trimming input and adding error handling. Parameterized tests reduced code repetition but required restructuring nested test classes for readability. Balancing strict validation with user flexibility also required trade-offs to prevent overly restrictive input while maintaining data integrity.
+  </p>
+
+  <h3>Why These Enhancements Matter</h3>
+  <p>
+    These improvements significantly elevated the project:
+  </p>
+  <ul>
+    <li><strong>Reliability:</strong> Validation ensures only correct data enters the system.</li>
+    <li><strong>Performance:</strong> HashMap enables fast operations even as data scales.</li>
+    <li><strong>Flexibility:</strong> Partial updates allow realistic use cases without overwriting unchanged data.</li>
+    <li><strong>Testing Depth:</strong> Expanded unit tests cover normal, boundary, invalid, and large-scale scenarios, reflecting professional-level quality assurance.</li>
+  </ul>
+
+  <h3>Reflection on Growth</h3>
+  <p>
+    Overall, this enhancement demonstrates my growth from foundational coursework to a more advanced, capstone-level understanding of algorithms and data structures. 
+    I developed a stronger appreciation for design trade-offs, robust validation, and maintainable testing practices. 
+    These skills will directly translate to professional software development, preparing me to write efficient, reliable, and scalable code in real-world applications.
+  </p>
+</section>
 
