@@ -1,0 +1,38 @@
+<section id="self-assessment" style="max-width: 900px; margin: 0 auto; padding: 20px; line-height: 1.6;">
+  <h2 style="text-align:center; color:#2c3e50;">Professional Self-Assessment</h2>
+
+  <h3>Overview</h3>
+  <p>
+    Throughout the CS499 Capstone course, I have enhanced multiple artifacts that demonstrate growth in software design, algorithms, data structures, and database development. 
+    This self-assessment reflects on the skills I have strengthened, challenges I have overcome, and the professional competencies I am prepared to apply in a real-world environment.
+  </p>
+
+  <h3>Skills and Competencies Developed</h3>
+  <ul>
+    <li><strong>Software Design and Engineering:</strong> By improving the Contact Service Appointment Project, I refined validation logic, exception handling, and unit tests, producing more maintainable, professional-quality code.</li>
+    <li><strong>Algorithms and Data Structures:</strong> Enhancements to data storage using <code>HashMap</code> and the application of regex validation demonstrated algorithmic thinking and efficient use of data structures for performance and reliability.</li>
+    <li><strong>Database Development:</strong> Enhancing the AnimalShelterCRUD class improved CRUD operations, introduced input validation, flexible connection handling, and batch operations, reflecting secure, scalable, and maintainable database design.</li>
+    <li><strong>Professional Communication:</strong> Improved documentation, comments, and structured narratives ensured that both code and explanations are clear, thorough, and understandable to other developers and stakeholders.</li>
+    <li><strong>Problem Solving and Critical Thinking:</strong> Challenges such as managing boundary cases, balancing validation with usability, and ensuring secure coding practices strengthened my analytical and problem-solving skills.</li>
+  </ul>
+
+  <h3>Reflection on Growth</h3>
+  <p>
+    Completing these enhancements has reinforced my understanding of professional-level software development practices. 
+    I have learned to approach coding with a focus on maintainability, security, and scalability, while also integrating testing and validation to ensure high-quality deliverables. 
+    The process required careful planning, iterative problem-solving, and attention to detail — all skills that will be essential in a professional software development role.
+  </p>
+
+  <h3>Future Applications</h3>
+  <p>
+    The skills and practices developed during this capstone project are directly applicable to real-world software engineering. 
+    I am now better prepared to contribute to collaborative projects, design efficient systems, and implement secure, maintainable solutions in both individual and team environments. 
+    This ePortfolio not only demonstrates my technical abilities but also reflects my growth as a thoughtful, professional developer ready to tackle complex challenges in the software industry.
+  </p>
+
+  <h3>Conclusion</h3>
+  <p>
+    Overall, this capstone experience has provided a comprehensive opportunity to integrate and enhance my knowledge from prior coursework. 
+    The artifacts, enhancements, and reflections included in this ePortfolio highlight my development as a competent, professional software developer and my readiness to apply these skills in future endeavors.
+  </p>
+</section>
